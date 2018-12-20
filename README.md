@@ -1,4 +1,4 @@
-# Viktor NV-1 Synthesizer [![Build Status](https://secure.travis-ci.org/nicroto/viktor.png?branch=master)](http://travis-ci.org/nicroto/viktor)
+# Dreamhope NV-1 Synthesizer [![Build Status](https://secure.travis-ci.org/nicroto/Dreamhope.png?branch=master)](http://travis-ci.org/nicroto/Dreamhope)
 
 Synthesizer built on the Web Audio API.
 
@@ -9,7 +9,7 @@ Synthesizer built on the Web Audio API.
 Fork and clone the repo. `cd` into it and install npm dependencies:
 
 ```shell
-$ cd viktor
+$ cd dreamhope
 $ npm install
 ```
 
@@ -44,7 +44,7 @@ Always execute grunt on the root of the repo to run linting and tests. If you se
 I am happy to accept contributions. Please follow these rules, in case you want to submit a pull request:
  * Follow the coding style (your code should blend with the rest of it in a file or overall in the architecture);
  * Don't submit coding style changes, unless agreed upon in an issue;
- * Don't submit code that doesn't have any tangible benefit for the performance, look, functionality or sound of Viktor;
+ * Don't submit code that doesn't have any tangible benefit for the performance, look, functionality or sound of Dreamhope;
  * Always submit an issue (and wait for response from an owner), before you start coding, except in obvious situations like non-breaking fixes;
  * For every fix/feature do your best to cover them with tests (the project has almost no unit tests, right now, but this will change, if it breaks the state of a prototype and this is how it would happen).
 
@@ -151,7 +151,7 @@ $ for i in *.png; do ffmpeg -i $i -vframes 1 -compression_level 100 $i-1.png; do
    * Add: Patch: "BB8".
    * Add: Patch: "Outer Space".
  * 0.7 (5th of January, 2016)
-   * Improve: Remove the need for async init of Viktor.
+   * Improve: Remove the need for async init of Dreamhope.
  * 0.6 (26th of September, 2015)
    * Add: Effect: Compressor.
  * 0.5.3 (21th of September, 2015)
@@ -179,8 +179,8 @@ $ for i in *.png; do ffmpeg -i $i -vframes 1 -compression_level 100 $i-1.png; do
    * Add: creating a custom patch from url params;
    * Add: selecting patch by url param.
  * 0.2 (4th of September, 2015)
-   * Extract: viktor-nv1-engine npm package;
-   * Extract: viktor-nv1-settings-convertor npm package.
+   * Extract: Dreamhope-nv1-engine npm package;
+   * Extract: Dreamhope-nv1-settings-convertor npm package.
 
  * 0.1.1 (14th of June, 2015)
    * Fix: synth: multiple noteOn of the same tone before noteOff creates constant tone;
