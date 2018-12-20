@@ -1,4 +1,4 @@
-# Dreamhope NV-1 Synthesizer [![Build Status](https://secure.travis-ci.org/nicroto/Dreamhope.png?branch=master)](http://travis-ci.org/nicroto/Dreamhope)
+# Dreamhope NV-1 Synthesizer [![Build Status](https://secure.travis-ci.org/Dreamhope.png?branch=master)](http://travis-ci.org/Dreamhope)
 
 Synthesizer built on the Web Audio API.
 
